@@ -1,0 +1,23 @@
+{
+  "name": "blog_server",
+  "version": "1.0.0",
+  "description": "API 서버",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^2.7.0",
+    "graphql": "^14.4.2",
+    "graphql-tools": "^4.0.5",
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5"
+  }
+}
